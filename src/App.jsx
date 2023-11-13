@@ -1,14 +1,13 @@
-import { useState } from 'react'
+
 import './App.css'
+import { LoginPage } from './layouts/login/LoginPage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <h1>hola: {count} </h1>
-        <button onClick={() => setCount(count+1)} > aumentar +1</button>
+        <LoginPage/>
       </div>
     </>
   )
